@@ -124,7 +124,7 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     color: #222;
 }
@@ -356,7 +356,7 @@ header .header-content .header-content-inner p {
 
 .btn-default {
     border-color: #fff;
-    color: #222;
+    color: #EE4B28;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -370,7 +370,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
+    color: #EB3812;
     background-color: #f2f2f2;
 }
 
@@ -496,3 +496,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+#mce-EMAIL.form-control {
+    margin-bottom:20px;
+}
+
