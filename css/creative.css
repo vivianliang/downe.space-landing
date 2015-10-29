@@ -467,6 +467,10 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
 }
 
+.btn-subscribe {
+    margin-top: 20px;
+}
+
 .btn-xl {
     padding: 15px 30px;
 }
