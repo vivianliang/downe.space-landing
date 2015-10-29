@@ -444,6 +444,9 @@ fieldset[disabled] .btn-primary.active {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
+.btn-subscribe {
+    margin-top: 20px;
+}
 
 .btn-xl {
     padding: 15px 30px;
