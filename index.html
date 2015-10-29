@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +9,9 @@
     <meta name="author" content="">
 
     <title>downe.space</title>
+
+    <!--our font-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -58,11 +60,6 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    -->
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -75,11 +72,11 @@
 
     <header>
         <div class="header-content">
-            <div class="header-content-inner">
+            <div class="header-content-inner wow fadeInUp">
                 <h1>downe.space</h1>
                 <hr>
-                <p>A web service to help you find local events and services for the Queer People of Color community</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>A web service to help Queer and Transpeople People of Color find local community events and services</p>
+                <a href="#mission" class="btn btn-primary btn-xl page-scroll">Our Mission</a>
             </div>
         </div>
     </header>
@@ -91,7 +88,7 @@
                     <h2 class="section-heading">Our Mission</h2>
                     <hr class="light">
                     <p class="text-faded">Increasing visibility of local QTPOC spaces for the people by the people.</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+
                 </div>
             </div>
         </div>
@@ -142,66 +139,50 @@
         -->
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <!--
-            <div class="call-to-action">
-                <h2>Lorem Ipsum</h2>
-                <a href="#" class="btn btn-default btn-xl">Download Now!</a>
-            </div>
-            -->
-        </div>
-    </aside>
+    <section id="contact">
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Downe to be updated about our launch?</h2>
 
+                    <!-- Begin MailChimp Signup Form -->
+                    <div class="subscribe wow fadeInUp" id="mc_embed_signup">
+
+                        <form class="form-inline" role="form" action="//space.us12.list-manage.com/subscribe/post?u=f2f38b991e397e5c586c09b64&amp;id=b851f5793b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Your Email *" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_f2f38b991e397e5c586c09b64_b851f5793b" tabindex="-1" value=""></div>
+
+                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-default btn-xl btn-subscribe">Get Notified when we launch</button>
+                        </form>
+                    </div>
+                    <!--End mailchimp_embed_signup-->
+
+                    <!--<a href="#" class="btn btn-default btn-xl">Download Now!</a>-->
+                </div>
+            </div>
+        </aside>
+    </section>
+
+<!--
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Keep in Touch!</h2>
+                    <h2 class="section-heading">Get in Touch!</h2>
                     <hr class="primary">
-                    <p>Subscribe to our mailing list and we will keep you updated!</p>
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
 
-
-                <!-- Begin MailChimp Signup Form -->
-                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
-                <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2 text-center">
-                    <form action="//space.us12.list-manage.com/subscribe/post?u=f2f38b991e397e5c586c09b64&amp;id=b851f5793b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div id="mc_embed_signup_scroll" class="form-group">
-
-                                    <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Your Email *" required>
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;">
-                                        <input type="text" name="b_f2f38b991e397e5c586c09b64_b851f5793b" tabindex="-1" value="">
-                                    </div>
-                                    <!--
-                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                    </div>-->
-
-                                    <div class="clearfix"></div>
-                                    <div class="col-lg-12 text-center">
-                                        <div id="success"></div>
-                                        <button
-                                            type="submit"
-                                            value="Subscribe"
-                                            name="subscribe"
-                                            id="mc-embedded-subscribe"
-                                            class="btn btn-primary btn-xl btn-subscribe">Subscribe</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <!--
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <form name="sentMessage" id="contactForm" novalidate>
@@ -232,24 +213,28 @@
                         </div>
                     </form>
                 </div>
-                -->
 
-           </div>
+               </div>
         </div>
     </section>
+-->
 
     <aside class="bg-dark">
         <div class="container text-center">
-            <!--
-            <div class="col-lg-4 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>123-456-6789</p>
+            <div class="col-xs-12 col-sm-4  text-center">
+                <a class="btn-twitter" href="https://twitter.com/downe_space">
+                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i><p>Connect on Facebook</p></a>
+
             </div>
-            -->
-            <div class="col-lg-4 col-lg-offset-4 text-center">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:downe.space@gmail.com">downe.space@gmail.com</a></p>
-                Feel free to shoot us an email with any questions or comments.
+            <div class="col-xs-12 col-sm-4 ctext-center">
+                <a class="=btn-facebook" href="https://twitter.com/downe_space">
+                <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".2s"></i><p>Connect on Facebook</p></a>
+
+            </div>
+            <div class="col-xs-12 col-sm-4 text-center">
+                <a href="mailto:downe.space@gmail.com"><i class="fa fa-envelope fa-3x wow bounceIn" data-wow-delay=".3s"></i><p>Email Us!</p>
+
+                </a>
             </div>
         </div>
     </aside>
