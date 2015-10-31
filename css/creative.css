@@ -35,6 +35,7 @@ a {
 a:hover,
 a:focus {
     color: #eb3812;
+    text-decoration: none;
 }
 
 a i {
@@ -202,8 +203,8 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-color: #83abb3;
-    /*background-image: url(../img/header.jpg);*/
+    /*background-color: #83abb3;*/
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
