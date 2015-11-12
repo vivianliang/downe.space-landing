@@ -14,7 +14,11 @@ body {
 
 body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+<<<<<<< HEAD
 	background-color:#FFF;
+=======
+	background-color:#FFBF66;
+>>>>>>> 02e24085eddba55a181bc18fbf0e1fea68b2ac5e
 }
 
 hr {
@@ -78,8 +82,13 @@ p {
     line-height: 1.5;
 }
 
+<<<<<<< HEAD
 .bg-white {
     background-color: #184060;
+=======
+.bg-primary {
+    background-color: #353749;
+>>>>>>> 02e24085eddba55a181bc18fbf0e1fea68b2ac5e
 }
 }
 
@@ -89,7 +98,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #184060;
+    background-color: #353749;
 }
 
 .bg-footer {
@@ -525,6 +534,14 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+<<<<<<< HEAD
 #mce-EMAIL.form-control {
     margin-bottom:20px;
 }
+=======
+
+#mce-EMAIL.form-control {
+    margin-bottom:20px;
+}
+
+>>>>>>> 02e24085eddba55a181bc18fbf0e1fea68b2ac5e
