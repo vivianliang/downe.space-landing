@@ -76,6 +76,7 @@ p {
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 1.5;
+    text-align: left;
 }
 
 .bg-white {
@@ -102,7 +103,8 @@ background-color: #000;
 
 .teampicture {
 width: 50%;
-margin: 40px auto;
+    float: left;
+    padding: 30px;
 }
 
 
@@ -116,6 +118,11 @@ aside {
 
 .no-padding {
     padding: 0;
+}
+
+.our-team {
+ width:30%;
+padding:20px;
 }
 
 .navbar-default {
