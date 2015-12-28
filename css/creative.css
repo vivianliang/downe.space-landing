@@ -4,8 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
-
 html,
 body {
     width: 100%;
@@ -93,20 +91,12 @@ p {
 }
 
 .bg-footer {
-background-color: #000;
-
+    background-color: #000;
 }
 
 .text-faded {
     color: rgba(255,255,255,.9);
 }
-
-.teampicture {
-width: 50%;
-    float: left;
-    padding: 30px;
-}
-
 
 section {
     padding: 100px 0;
@@ -120,9 +110,19 @@ aside {
     padding: 0;
 }
 
-.our-team {
- width:30%;
-padding:20px;
+.team-picture {
+    width: 50%;
+    padding: 40px 30px 30px 30px;
+    float: left;
+}
+
+.individual-img {
+    width:300px;
+    padding:20px;
+}
+
+.individual-photo {
+    display: inline-block;
 }
 
 .navbar-default {
@@ -378,6 +378,10 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.btn-footer {
+    padding-right: 80px;
 }
 
 .btn-default {
