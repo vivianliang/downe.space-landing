@@ -137,13 +137,44 @@ aside {
     float: left;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
+.push-right-half {
+    padding-right: 5px;
+}
+
+.display-block {
+    display: block;
+}
+
 .individual-img {
-    width:280px;
+    width:300px;
     padding:20px;
 }
 
 .individual-photo {
     display: inline-block;
+    font-size: 16px;
+}
+
+.individual-photo .fa-stack {
+    font-size: 12px;
+}
+
+.individual-photo .fa {
+    // color: #184060;
+    color: white;
+}
+
+.individual-photo .fa-circle {
+    color: #ffffff;
+}
+
+.individual-photo .fa-stack.fa-lg:hover {
+    color: #f98200;
+    cursor: pointer;
 }
 
 .navbar-default {
